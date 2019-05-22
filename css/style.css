@@ -1,0 +1,54 @@
+html{
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.login-form{width:30%; margin: 10px auto;}
+input{ margin-bottom: 10px;}
+
+.header{ background-color: #fff; border-bottom:3px solid #a00; }
+.header ul.menu{ margin: 30px 0px; padding:0px;}
+.header ul.menu li{ margin: 0px; padding:0px; display: inline-block;}
+.header ul.menu li a{ color:#000; text-decoration: none;}
+.header ul.menu li a:hover{ color:#555;}
+.content{ background-color: #fff;}
+.content{ min-height: 600px;}
+form.search-form {    margin-top: 10px;    text-align: right; padding:5px;}
+.dash-heading{ text-align: center; margin:120px 0px;}
+.footer{ background-color: #000; color:#fff;}
+.dashboard{ background-color: #444;}
+.logo{ height:100px; padding:0px; margin: 0px auto; text-align:center;}
+.logo img{ width:100px;}
+small{ font-size: 11px;}
+h2.heading{ display: inline-block;}
+.add-new-button{ font-size: 11px;}
+ul.items{ margin: 0px; padding:0px;}
+ul.items li{ margin-bottom: 5px; overflow: hidden; font-size:14px; }
+ul.items li.odd span{ background-color:#aaa }
+ul.items li.even span{ background-color:#ccc }
+ul.items li span{ border:1px solid #ddd; padding:10px;}
+
+.w100{ width:100px; display: inline-block;}
+.w150{ width:150px; display: inline-block;}
+.w200{ width:200px; display: inline-block;}
+.w250{ width:250px; display: inline-block;}
+.w300{ width:300px; display: inline-block;}
+
+@media screen and (max-width:1200px){
+
+}
+
+@media screen and (max-width:1014px){
+
+}
+
+@media screen and (max-width:980px){
+.login-form{width:100%; margin: 10px auto;}
+}
+
+@media screen and (max-width:768px){
+.login-form{width:100%; margin: 10px auto;}
+}
+@media screen and (max-width:520px){
+.login-form{width:100%; margin: 10px auto;}
+}
